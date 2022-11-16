@@ -41,11 +41,26 @@ var itemlist =document.getElementById('items');
 // itemlist.children[1].style.backgroundColor='yellow';
 // console.log(itemlist.children[1])
 
-function buttonclick(){
-    console.log('hello world');
+// function buttonclick(){
+//     console.log('hello world');
+// }
+
+ var button=document.querySelector('#btn');
+//     button.addEventListener('click',addEvent);
+//    function addEvent(){
+//     var title=document.getElementsByClassName('title') 
+//    } 
+
+var form=document.getElementById('addform');
+//button.addEventListener('click',runEvent);
+
+button.addEventListener('dbclick',runEvent);
+
+
+function runEvent(e){
+    console.log("Event type:",e.type.value)
+
 }
-
-
 
 
 
